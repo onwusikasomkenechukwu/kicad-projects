@@ -1,0 +1,77 @@
+footprint A1 Module:Arduino_Nano @ 154.5,116.16 rot 180 layer "F.Cu" pads (1=unconnected-(A1-D1{slash}TX-Pad1), 2=unconnected-(A1-D0{slash}RX-Pad2), 3=unconnected-(A1-~{RESET}-Pad3), 4=GND, 5=Net-(A1-D2), 6=Net-(A1-D3), 7=Net-(A1-D4), 8=unconnected-(A1-D5-Pad8), 9=unconnected-(A1-D6-Pad9), 10=unconnected-(A1-D7-Pad10), 11=unconnected-(A1-D8-Pad11), 12=unconnected-(A1-D9-Pad12), 13=unconnected-(A1-D10-Pad13), 14=unconnected-(A1-D11-Pad14), 15=Net-(A1-D12), 16=unconnected-(A1-D13-Pad16), 17=unconnected-(A1-3V3-Pad17), 18=unconnected-(A1-AREF-Pad18), 19=unconnected-(A1-A0-Pad19), 20=unconnected-(A1-A1-Pad20), 21=unconnected-(A1-A2-Pad21), 22=unconnected-(A1-A3-Pad22), 23=Net-(A1-A4), 24=Net-(A1-A5), 25=unconnected-(A1-A6-Pad25), 26=unconnected-(A1-A7-Pad26), 27=+5V, 28=unconnected-(A1-~{RESET}-Pad28), 29=GND, 30=unconnected-(A1-VIN-Pad30)) uid 0b3a0a3b-b367-4e15-826d-a2eee6ed809c
+footprint R1 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal @ 161.925,125.631914 rot 90 layer "F.Cu" pads (1=+5V, 2=Net-(A1-D2)) uid 1bc75e25-7e76-48b5-b964-9edd7ea1bf9a
+footprint SW2 Button_Switch_THT:SW_PUSH_6mm @ 177.09,99.92 layer "F.Cu" pads (1=GND, 2=Net-(A1-D3)) uid 294ebb57-7d33-4787-956b-c76dbfd656f2
+footprint SW3 Button_Switch_THT:SW_PUSH_6mm @ 177.09,87.92 layer "F.Cu" pads (1=GND, 2=Net-(A1-D4)) uid 30262019-d34d-4c30-8f43-3f9cf6852798
+footprint SW1 Button_Switch_THT:SW_PUSH_6mm @ 176.84,116.67 layer "F.Cu" pads (1=GND, 2=Net-(A1-D2)) uid 39373017-cb24-4a0d-bd97-6c9023665dc9
+footprint D1 LED_THT:LED_D5.0mm @ 178,82.04 rot 90 layer "F.Cu" pads (1=GND, 2=Net-(D1-A)) uid 5b57b198-50a8-49dd-8985-eb42268a6dc0
+footprint R3 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal @ 162,94.31 rot 90 layer "F.Cu" pads (1=+5V, 2=Net-(A1-D4)) uid 649036e3-f39d-4309-98c5-95e61477b200
+footprint U2 Sp02_stuff:SSD1306_Module @ 119.38,91 layer "F.Cu" pads (1=GND, 2=+5V, 3=Net-(A1-A5), 4=Net-(A1-A4)) uid 65628bf1-26c1-45ab-bc0a-4a351a9a75ae
+footprint R4 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal @ 159.69,79 layer "F.Cu" pads (1=Net-(A1-D12), 2=Net-(D1-A)) uid 92c510f3-0231-4304-9bfd-5d2f4fb80611
+footprint U1 Sp02_stuff:MAX30102_Module @ 112.88,118.11 layer "F.Cu" pads (1=unconnected-(U1-INT-Pad1), 2=Net-(A1-A4), 3=Net-(A1-A5), 4=GND, 5=+5V) uid 9f94e213-377a-4ac3-b9e8-00912847aab5
+footprint C1 Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm @ 169,118.5 rot -90 layer "F.Cu" pads (1=Net-(A1-D2), 2=GND) uid bbae3b2d-9d7f-4df4-a75c-ffa6f4b7afea
+footprint C3 Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm @ 169,87.5 rot -90 layer "F.Cu" pads (1=Net-(A1-D4), 2=GND) uid c1e70e7e-aa91-4265-b3f3-bdb9bd3cbd34
+footprint C2 Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm @ 169.23,103.82 rot -90 layer "F.Cu" pads (1=Net-(A1-D3), 2=GND) uid dbf1f13d-4b17-4e63-8cfc-f0038f9621d7
+footprint R2 Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal @ 162,109.27 rot 90 layer "F.Cu" pads (1=+5V, 2=Net-(A1-D3)) uid e8580028-9c57-4929-9478-b3d55c7369f5
+segment start 161.925,118.011914 end 168.511914,118.011914 width 0.2 layer "F.Cu" net Net-(A1-D2) uid 459fe2be-beb0-4bad-a2f1-03de30d390a6
+segment start 168.511914,118.011914 end 169,118.5 width 0.2 layer "F.Cu" net Net-(A1-D2) uid 6b6ca33f-c7d1-4548-b7af-38f8ab55af7a
+segment start 174.17,118.5 end 176.84,121.17 width 0.2 layer "F.Cu" net Net-(A1-D2) uid 75e0370d-a5cc-4cfb-9cf4-7329dd3393d0
+segment start 161.925,113.425 end 161.925,118.011914 width 0.2 layer "F.Cu" net Net-(A1-D2) uid 8d252c81-46bb-44f7-b06d-b2cecd98fb2c
+segment start 176.84,121.17 end 183.34,121.17 width 0.2 layer "F.Cu" net Net-(A1-D2) uid d8b1c551-9692-4e9b-80cc-127964746aae
+segment start 154.5,106 end 161.925,113.425 width 0.2 layer "F.Cu" net Net-(A1-D2) uid e578c8a8-9104-43d3-8669-0d99320be765
+segment start 169,118.5 end 174.17,118.5 width 0.2 layer "F.Cu" net Net-(A1-D2) uid ecca24a3-ed20-4640-b26f-22d21c974619
+segment start 169.23,103.82 end 176.49,103.82 width 0.2 layer "F.Cu" net Net-(A1-D3) uid 60e27c37-549c-4fe3-bbad-465f84fa3d56
+segment start 176.49,103.82 end 177.09,104.42 width 0.2 layer "F.Cu" net Net-(A1-D3) uid 81581059-90ba-4082-b171-a1c63de19fa5
+segment start 162,101.65 end 167.06,101.65 width 0.2 layer "F.Cu" net Net-(A1-D3) uid 940909aa-f57c-46b9-a250-0fe1631e235c
+segment start 156.31,101.65 end 154.5,103.46 width 0.2 layer "F.Cu" net Net-(A1-D3) uid b6fe2368-ac78-42ee-b2dc-678fd16a5d64
+segment start 167.06,101.65 end 169.23,103.82 width 0.2 layer "F.Cu" net Net-(A1-D3) uid d5647d55-965f-4949-b708-f74ab1bc95ce
+segment start 177.09,104.42 end 183.59,104.42 width 0.2 layer "F.Cu" net Net-(A1-D3) uid eed4918b-714c-4e21-8b5f-421883b27350
+segment start 162,101.65 end 156.31,101.65 width 0.2 layer "F.Cu" net Net-(A1-D3) uid f246f68d-643a-4cac-9669-e5a1694a41c2
+segment start 177.09,92.42 end 183.59,92.42 width 0.2 layer "F.Cu" net Net-(A1-D4) uid 1d6dab20-5c59-4af0-9bfa-1ea4a69f48ff
+segment start 169,87.5 end 172.17,87.5 width 0.2 layer "F.Cu" net Net-(A1-D4) uid 72aee38d-f427-4bce-8b55-74de6b3e411c
+segment start 168.19,86.69 end 169,87.5 width 0.2 layer "F.Cu" net Net-(A1-D4) uid 74efdadb-d94a-457f-82ad-65afcae560f2
+segment start 162,86.69 end 159.1,89.59 width 0.2 layer "F.Cu" net Net-(A1-D4) uid 8142fe74-3d87-44cb-acce-01191ab78c69
+segment start 159.1,89.59 end 159.1,89.6 width 0.2 layer "F.Cu" net Net-(A1-D4) uid 953880ed-8190-42d3-b6ad-95e36fd44f97
+segment start 162,86.69 end 168.19,86.69 width 0.2 layer "F.Cu" net Net-(A1-D4) uid 9bb82e6d-3b1a-4e6d-9ca4-735c14464d96
+segment start 172.17,87.5 end 177.09,92.42 width 0.2 layer "F.Cu" net Net-(A1-D4) uid da40edfc-14e5-4f3d-aafa-801ebce54d7d
+segment start 159.1,89.6 end 159.1,97.1 width 0.2 layer "B.Cu" net Net-(A1-D4) uid 4816c982-4258-4c96-ae3d-29d5a3d574b1
+segment start 159.1,97.1 end 155.4,100.8 width 0.2 layer "B.Cu" net Net-(A1-D4) uid 62531f7d-5603-40cc-959a-0c19a05e7793
+segment start 158.09,80.6 end 159.69,79 width 0.2 layer "F.Cu" net Net-(A1-D12) uid 607a1961-84ab-4a09-91d6-487edf56a918
+segment start 154.5,80.6 end 158.09,80.6 width 0.2 layer "F.Cu" net Net-(A1-D12) uid b75b3144-8aad-4b4b-9bb6-edd988843c01
+segment start 123.58,98.38 end 123.1,97.9 width 0.2 layer "F.Cu" net Net-(A1-A4) uid 0d32372a-c492-4707-b4fa-0fc0cb8ba121
+segment start 139.26,98.38 end 123.58,98.38 width 0.2 layer "F.Cu" net Net-(A1-A4) uid 1cfde738-161a-46f9-831b-1dcd29cd17d6
+segment start 110.34,110.66 end 110.34,113.03 width 0.2 layer "F.Cu" net Net-(A1-A4) uid 7abeda69-92a9-44b1-8b41-8b0d14c73a23
+segment start 123.1,97.9 end 110.34,110.66 width 0.2 layer "F.Cu" net Net-(A1-A4) uid bdb038f6-a700-4726-b359-2ee2703e43f6
+segment start 123.1,97.9 end 123.19,97.81 width 0.2 layer "B.Cu" net Net-(A1-A4) uid d69da5b3-2540-47ad-b2f1-64331fb02edf
+segment start 123.19,97.81 end 123.19,78.935 width 0.2 layer "B.Cu" net Net-(A1-A4) uid dbbf4273-537e-461d-9f86-f246e4189b08
+segment start 122.3,103.61 end 112.88,113.03 width 0.2 layer "F.Cu" net Net-(A1-A5) uid 08edba3d-4010-4d8c-9b7c-1f254db90c67
+segment start 139.26,100.92 end 122.42,100.92 width 0.2 layer "F.Cu" net Net-(A1-A5) uid 349e0ef2-af06-4436-9d15-1d5af2d5ea31
+segment start 122.3,100.8 end 122.3,103.61 width 0.2 layer "F.Cu" net Net-(A1-A5) uid 7ab2b9c5-edac-4b58-8ec7-77712e6db236
+segment start 122.42,100.92 end 122.3,100.8 width 0.2 layer "F.Cu" net Net-(A1-A5) uid cb8c1f1f-1ad9-4eb5-a99c-ceeb0d7a7a4d
+segment start 120.65,82.235 end 120.65,78.935 width 0.2 layer "B.Cu" net Net-(A1-A5) uid 8158fea2-1a48-47af-bfe3-59c69097ae51
+segment start 122.3,100.8 end 120.65,82.235 width 0.2 layer "B.Cu" net Net-(A1-A5) uid f54fc126-6939-439b-809f-03194812a53b
+segment start 139.26,108.54 end 122.45,108.54 width 0.4 layer "F.Cu" net +5V uid 1f606a12-2637-46ac-9b5e-57ea26cb1a86
+segment start 147.907,99.893 end 139.26,108.54 width 0.2 layer "F.Cu" net +5V uid 24dde697-a989-4eea-9945-ce80699eb75f
+segment start 122.45,108.54 end 117.96,113.03 width 0.4 layer "F.Cu" net +5V uid 61ca6420-321c-463a-a68f-b93544078698
+segment start 162,94.31 end 156.417,99.893 width 0.2 layer "F.Cu" net +5V uid 6367d5fd-c216-492c-9a98-ef8f4e89b5fe
+segment start 156.417,99.893 end 147.907,99.893 width 0.2 layer "F.Cu" net +5V uid 77eab529-78a7-480a-b2d3-fa30461a28b7
+segment start 117.96,113.03 end 117.96,79.085 width 0.4 layer "B.Cu" net +5V uid 2d046b66-0000-4d6d-8091-6671926665b3
+segment start 117.96,79.085 end 118.11,78.935 width 0.4 layer "B.Cu" net +5V uid 50e964d0-4aeb-47e2-bac6-32bc0c556088
+segment start 160.973,108.243 end 162,109.27 width 0.2 layer "B.Cu" net +5V uid 55f9ded3-8ad6-423b-b337-2b50f1706ead
+segment start 161.7,124.7 end 161.7,125.406914 width 0.2 layer "B.Cu" net +5V uid 59141b60-6559-44b2-ba09-7bd2bda03a60
+segment start 161.7,125.406914 end 161.925,125.631914 width 0.2 layer "B.Cu" net +5V uid 81a36e96-edb5-4a16-8cdf-b28de8cb2e18
+segment start 160.898,123.898 end 161.7,124.7 width 0.2 layer "B.Cu" net +5V uid 82bb7da0-c31b-482c-b085-46e444cda18f
+segment start 162,94.31 end 160.973,95.337 width 0.2 layer "B.Cu" net +5V uid 9e67973c-023f-4024-994e-4598c0e06e59
+segment start 162,109.27 end 160.898,110.372 width 0.2 layer "B.Cu" net +5V uid aeeb7396-8dd6-4766-ad76-4407b73c9c79
+segment start 160.898,110.372 end 160.898,123.898 width 0.2 layer "B.Cu" net +5V uid c798aa7b-7356-4bd5-a6d5-485a4468ef3c
+segment start 160.973,95.337 end 160.973,108.243 width 0.2 layer "B.Cu" net +5V uid efafae7d-d051-4d00-b401-f25b0a21a9e5
+segment start 177.5,79 end 178,79.5 width 0.2 layer "F.Cu" net Net-(D1-A) uid 14613f8a-c3e6-4bd2-b777-69f4c2fb88f0
+segment start 167.31,79 end 177.5,79 width 0.2 layer "F.Cu" net Net-(D1-A) uid 928460ee-c4d2-4d88-a445-1ccc918fdb5c
+via @ 155.4,100.8 size 0.6 drill 0.3 layers ("F.Cu", "B.Cu") net Net-(A1-D4) uid 6873d5e3-5a92-4a1c-8cca-a63173f6269f
+via @ 159.1,89.6 size 0.6 drill 0.3 layers ("F.Cu", "B.Cu") net Net-(A1-D4) uid fbd91fe3-501a-4b5f-ad40-4f2b2f942a6d
+via @ 123.1,97.9 size 0.6 drill 0.3 layers ("F.Cu", "B.Cu") net Net-(A1-A4) uid 71d222af-340a-42c4-85a3-88bb3d866ad5
+via @ 122.3,100.8 size 0.6 drill 0.3 layers ("F.Cu", "B.Cu") net Net-(A1-A5) uid 45691cbc-5105-4b77-8d18-a849857c2a88
+zone net GND layer "F.Cu" clearance 0.2 polygon (102,72, 102,129, 189,129, 189,72) uid cfb6eb21-8bad-4ee4-a2cd-5eb0f2858346
+line 103,73 -> 103,128 layer "Edge.Cuts" width 0.05 stroke default uid a86a7052-e6aa-4a59-89fb-0e31960eec81
+line 103,73 -> 188,73 layer "Edge.Cuts" width 0.05 stroke default uid df5be525-124d-4f63-9ed4-3559b95e9f23
+line 103,128 -> 188,128 layer "Edge.Cuts" width 0.05 stroke default uid 8d47a438-cf7e-46ae-8c93-31fd0eb7e087
+line 188,128 -> 188,73 layer "Edge.Cuts" width 0.05 stroke default uid dc4ad8ac-7c4b-43f9-9978-ec4b70a729c9

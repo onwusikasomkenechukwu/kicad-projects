@@ -1,0 +1,123 @@
+file_uid 0a65ed9f-2a60-46c7-b2b1-dd993557f3d2
+paper "A4"
+comp C3 Device:C 100n @ 83.82,138.43 rot 0 props { prop "footprint":"Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" } pins (2=GND,1=NET4) uid 026b4c90-debf-4bee-b0e3-67f007543a32
+comp #PWR011 power:+5V +5V @ 189.23,64.77 rot 0 pins (1=+5V) uid 054eaa99-93d9-400f-abfe-91ea63212179
+comp R3 Device:R 1k @ 96.52,125.73 rot 0 props { prop "footprint":"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" } pins (1=+5V,2=NET4) uid 16a41c06-2dc4-4a83-adb2-3de520a0c73f
+comp SW2 Switch:SW_Push SW_Push @ 71.12,138.43 rot 90 props { prop "footprint":"Button_Switch_THT:SW_PUSH_6mm" } pins (2=NET1,1=GND) uid 209d8916-a03c-444a-85f8-c082d0d82656
+comp R1 Device:R 1k @ 44.45,125.73 rot 0 props { prop "footprint":"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" } pins (1=+5V,2=NET5) uid 2f42429d-dee8-41d1-8080-ef1b1dd696ec
+comp R4 Device:R 1k @ 124.46,125.73 rot 0 props { prop "footprint":"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" } pins (1=NET6,2=NET7) uid 3077e426-6809-4f39-b379-76dfbd8e3c33
+comp #PWR05 power:+5V +5V @ 71.12,118.11 rot 0 pins (1=+5V) uid 41ce067c-1066-47cc-b6f5-2d57e9145394
+comp SW3 Switch:SW_Push SW_Push @ 96.52,138.43 rot 90 props { prop "footprint":"Button_Switch_THT:SW_PUSH_6mm" } pins (2=NET4,1=GND) uid 462153af-e1c6-434d-a654-3270a2e1d7bb
+comp #PWR012 power:+5V +5V @ 189.23,105.41 rot 0 pins (1=+5V) uid 46277fff-5b6f-4eef-8668-e36c11ef2744
+comp #PWR08 power:GND GND @ 96.52,148.59 rot 0 pins (1=GND) uid 4ea03252-66c4-454b-ba46-01a47496a95f
+comp #PWR02 power:GND GND @ 147.32,127 rot 0 pins (1=GND) uid 5a8bbd76-645a-448a-9c3c-5e64a517f902
+comp #PWR04 power:GND GND @ 44.45,148.59 rot 0 pins (1=GND) uid 62c4f5bb-58c8-4479-8ada-39ab846a1d47
+comp #PWR01 power:+5V +5V @ 149.86,64.77 rot 0 pins (1=+5V) uid 645a81da-4d21-4b0d-b5aa-5338a006e90f
+comp SW1 Switch:SW_Push SW_Push @ 44.45,138.43 rot 90 props { prop "footprint":"Button_Switch_THT:SW_PUSH_6mm" } pins (2=NET5,1=GND) uid 73694d2b-80d2-4dfd-ae2b-5e7573dc65dc
+comp U1 New_Library:MAX30102_Module MAX30102 @ 189.23,80.01 rot 0 props { prop "footprint":"Sp02_stuff:MAX30102_Module" } pins (1=NONE,2=NET3,3=NET2,5=+5V,4=GND) uid 84dd9794-722a-4c49-b856-77e861fd6382
+comp #PWR03 power:+5V +5V @ 44.45,118.11 rot 0 pins (1=+5V) uid 89e49f64-1606-4039-9b4c-8acb97405927
+comp #PWR07 power:+5V +5V @ 96.52,118.11 rot 0 pins (1=+5V) uid 8cbfcfc2-c6d6-497b-8bb3-4888bdf2176f
+comp A1 MCU_Module:Arduino_Nano_v3.x Arduino_Nano_v3.x @ 144.78,96.52 rot 0 props { prop "footprint":"Module:Arduino_Nano" } pins (27=+5V,5=NET5,8=DNC,1=DNC,10=DNC,11=DNC,14=DNC,16=DNC,25=DNC,2=DNC,12=DNC,13=DNC,7=NET4,29=GND,17=DNC,20=DNC,9=DNC,6=NET1,30=DNC,15=NET6,4=GND,28=DNC,3=DNC,18=DNC,19=DNC,21=DNC,22=DNC,23=NET3,24=NET2,26=DNC) uid 960fae19-b2a3-4789-a135-3193f9dafad0
+comp #PWR09 power:GND GND @ 124.46,148.59 rot 0 pins (1=GND) uid 9c9153c9-c25a-49c0-88e9-fc8576ec1759
+comp C2 Device:C 100n @ 58.42,138.43 rot 0 props { prop "footprint":"Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" } pins (2=GND,1=NET1) uid acec3cca-8672-4662-a391-3adb5fe2aee6
+comp C1 Device:C 100n @ 31.75,138.43 rot 0 props { prop "footprint":"Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" } pins (2=GND,1=NET5) uid acecc154-cbcf-4047-b291-7467fc552c2d
+comp #PWR06 power:GND GND @ 71.12,148.59 rot 0 pins (1=GND) uid b886baa7-31ba-4d39-afc7-e5013a49d6bf
+comp #PWR010 power:GND GND @ 189.23,130.81 rot 0 pins (1=GND) uid beb2bcd3-2e4f-4276-8ba2-2aac9cb46556
+comp D1 Device:LED LED @ 124.46,138.43 rot 90 props { prop "footprint":"LED_THT:LED_D5.0mm" } pins (1=GND,2=NET7) uid c1293be5-5839-4c29-8119-704821d478f1
+comp #PWR013 power:GND GND @ 189.23,92.71 rot 0 pins (1=GND) uid c42b1e36-e3ac-40b1-97f2-1cfa40d26c6d
+comp U2 New_Library:SSD1306 SSD1306 @ 189.23,118.11 rot 0 props { prop "footprint":"Sp02_stuff:SSD1306_Module" } pins (1=GND,4=NET3,2=+5V,3=NET2) uid c63c3f48-91e3-4232-9af0-35c6d7f3ecf5
+comp R2 Device:R 1k @ 71.12,125.73 rot 0 props { prop "footprint":"Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" } pins (1=+5V,2=NET1) uid d17f43ab-e97a-44ad-8004-5f7593de1112
+net +5V GND NET1 NET2 NET3 NET4 NET5 NET6 NET7
+junction JUNC1 @ 71.12,130.81 uid 00314846-f7bb-475a-9e06-1e8179dd2608
+junction JUNC2 @ 147.32,124.46 uid 01093f6e-f71f-4dd7-9922-15ccb68fe6cc
+junction JUNC3 @ 96.52,146.05 uid 02e1ba4d-a3fd-4bac-ad33-afa5f1ccf22d
+junction JUNC4 @ 170.18,109.22 uid 26e239fc-4f29-4609-a684-1e9ad0e8beaa
+junction JUNC5 @ 71.12,146.05 uid 6ec8e293-4f6a-48b3-8fc7-d833578eae85
+junction JUNC6 @ 167.64,106.68 uid 711d79e9-00c3-4f83-b93e-1970572bb7e7
+junction JUNC7 @ 44.45,146.05 uid 73d5b3f7-4292-4e9b-ae4b-b17e63b47ad7
+junction JUNC8 @ 96.52,130.81 uid a96e4923-2f83-4fe4-91cc-982508dbb831
+junction JUNC9 @ 44.45,130.81 uid c800fd2a-6a75-43d5-b28b-4ddbfd53090e
+noconnect @ 247.65,110.49 uid 8ea69272-ec04-468b-a4c1-c09ebb1a217c
+noconnect @ 139.7,83.82 uid bf5c4ac3-05bb-45b1-80a5-623652a56a3e
+cwire CW1 C3.2 -> JUNC3 net GND
+cwiredef CW1 83.82,142.24 -> 83.82,146.05 -> 96.52,146.05
+cwire CW2 C3.1 -> JUNC8 net NET4
+cwiredef CW2 83.82,134.62 -> 83.82,130.81 -> 96.52,130.81
+cwire CW3 #PWR011.1 -> U1.5 net +5V
+cwiredef CW3 189.23,64.77 -> 189.23,71.12
+cwire CW4 R3.1 -> #PWR07.1 net +5V
+cwiredef CW4 96.52,121.92 -> 96.52,118.11
+cwire CW5 R3.2 -> JUNC8 net NET4
+cwiredef CW5 96.52,129.54 -> 96.52,130.81
+cwire CW6 SW2.2 -> JUNC1 net NET1
+cwiredef CW6 71.12,133.35 -> 71.12,130.81
+cwire CW7 SW2.1 -> JUNC5 net GND
+cwiredef CW7 71.12,143.51 -> 71.12,146.05
+cwire CW8 R1.1 -> #PWR03.1 net +5V
+cwiredef CW8 44.45,121.92 -> 44.45,118.11
+cwire CW9 R1.2 -> JUNC9 net NET5
+cwiredef CW9 44.45,129.54 -> 44.45,130.81
+cwire CW10 R4.1 -> A1.15 net NET6
+cwiredef CW10 124.46,121.92 -> 124.46,111.76 -> 132.08,111.76
+cwire CW11 R4.2 -> D1.2 net NET7
+cwiredef CW11 124.46,129.54 -> 124.46,134.62
+cwire CW12 #PWR05.1 -> R2.1 net +5V
+cwiredef CW12 71.12,118.11 -> 71.12,121.92
+cwire CW13 SW3.2 -> JUNC8 net NET4
+cwiredef CW13 96.52,133.35 -> 96.52,130.81
+cwire CW14 SW3.1 -> JUNC3 net GND
+cwiredef CW14 96.52,143.51 -> 96.52,146.05
+cwire CW15 #PWR012.1 -> U2.2 net +5V
+cwiredef CW15 189.23,105.41 -> 189.23,109.22
+cwire CW16 #PWR08.1 -> JUNC3 net GND
+cwiredef CW16 96.52,148.59 -> 96.52,146.05
+cwire CW17 #PWR02.1 -> JUNC2 net GND
+cwiredef CW17 147.32,127 -> 147.32,124.46
+cwire CW18 #PWR04.1 -> JUNC7 net GND
+cwiredef CW18 44.45,148.59 -> 44.45,146.05
+cwire CW19 #PWR01.1 -> A1.27 net +5V
+cwiredef CW19 149.86,64.77 -> 149.86,71.12
+cwire CW20 SW1.2 -> JUNC9 net NET5
+cwiredef CW20 44.45,133.35 -> 44.45,130.81
+cwire CW21 SW1.1 -> JUNC7 net GND
+cwiredef CW21 44.45,143.51 -> 44.45,146.05
+cwire CW22 U1.2 -> JUNC6 net NET3
+cwiredef CW22 181.61,77.47 -> 167.64,77.47 -> 167.64,106.68
+cwire CW23 U1.3 -> JUNC4 net NET2
+cwiredef CW23 181.61,80.01 -> 170.18,80.01 -> 170.18,109.22
+cwire CW24 U1.4 -> #PWR013.1 net GND
+cwiredef CW24 189.23,88.9 -> 189.23,92.71
+cwire CW25 A1.5 -> JUNC9 net NET5
+cwiredef CW25 132.08,86.36 -> 54.61,86.36 -> 54.61,130.81 -> 44.45,130.81
+cwire CW26 A1.7 -> JUNC8 net NET4
+cwiredef CW26 132.08,91.44 -> 110.49,91.44 -> 110.49,130.81 -> 96.52,130.81
+cwire CW27 A1.29 -> JUNC2 net GND
+cwiredef CW27 147.32,121.92 -> 147.32,124.46
+cwire CW28 A1.6 -> JUNC1 net NET1
+cwiredef CW28 132.08,88.9 -> 81.28,88.9 -> 81.28,130.81 -> 71.12,130.81
+cwire CW29 A1.4 -> JUNC2 net GND
+cwiredef CW29 144.78,121.92 -> 144.78,124.46 -> 147.32,124.46
+cwire CW30 A1.23 -> JUNC6 net NET3
+cwiredef CW30 157.48,106.68 -> 167.64,106.68
+cwire CW31 A1.24 -> JUNC4 net NET2
+cwiredef CW31 157.48,109.22 -> 170.18,109.22
+cwire CW32 #PWR09.1 -> D1.1 net GND
+cwiredef CW32 124.46,148.59 -> 124.46,142.24
+cwire CW33 C2.2 -> JUNC5 net GND
+cwiredef CW33 58.42,142.24 -> 58.42,146.05 -> 71.12,146.05
+cwire CW34 C2.1 -> JUNC1 net NET1
+cwiredef CW34 58.42,134.62 -> 58.42,130.81 -> 71.12,130.81
+cwire CW35 C1.2 -> JUNC7 net GND
+cwiredef CW35 31.75,142.24 -> 31.75,146.05 -> 44.45,146.05
+cwire CW36 C1.1 -> JUNC9 net NET5
+cwiredef CW36 31.75,134.62 -> 31.75,130.81 -> 44.45,130.81
+cwire CW37 #PWR06.1 -> JUNC5 net GND
+cwiredef CW37 71.12,148.59 -> 71.12,146.05
+cwire CW38 #PWR010.1 -> U2.1 net GND
+cwiredef CW38 189.23,130.81 -> 189.23,127
+cwire CW39 U2.4 -> JUNC6 net NET3
+cwiredef CW39 181.61,119.38 -> 167.64,119.38 -> 167.64,106.68
+cwire CW40 U2.3 -> JUNC4 net NET2
+cwiredef CW40 181.61,116.84 -> 181.61,109.22 -> 170.18,109.22
+cwire CW41 R2.2 -> JUNC1 net NET1
+cwiredef CW41 71.12,129.54 -> 71.12,130.81
